@@ -1,6 +1,17 @@
+.layout-body {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .layout-body {
+    width: calc(100% - var(--drawer-width));
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --drawer-width: 150px; 
 }
 
 @media (prefers-color-scheme: dark) {
