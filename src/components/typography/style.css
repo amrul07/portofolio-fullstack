@@ -1,0 +1,16 @@
+/* @media only screen and (max-width: 600px) {
+  span {
+    font-size: 3rem;
+  }
+  .poppins {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  span {
+    font-size: 1rem;
+  }
+  .poppins {
+    font-size: 3rem;
+  }
+} */

@@ -1,23 +1,25 @@
 .layout-body {
   width: 100%;
+  background-color: #191d2b;
+  font-size: 1.1rem;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 900px) {
   .layout-body {
     width: calc(100% - var(--drawer-width));
   }
-}
+} */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --drawer-width: 150px; 
+  --background: #191d2b;
+  --foreground: #191d2b;
+  /* --drawer-width: 115px; */
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #191d2b; 
+     --foreground: #ededed; 
   }
 }
 
@@ -50,4 +52,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
