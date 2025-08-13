@@ -113,7 +113,7 @@ export default function Home() {
               >
                 <Description
                   text={
-                    "I'm a Developer, I love to build beautiful and functional websites and apps. I'm able to communicate well, able to work in team or individually, fast learner, and like challenges."
+                    "I'm a Developer, I love to build functional websites. I'm able to communicate well, able to work in team or individually, fast learner, and like challenges."
                   }
                 />
               </motion.div>

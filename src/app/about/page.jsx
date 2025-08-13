@@ -74,7 +74,7 @@ export default function About() {
                   >
                     INFORMATION
                   </Poppins>
-                  <Description text="I have interested in programming since 2017. I have some experience developing backend, websites, and mobile apps. I have completed several projects in several big companies." />
+                  <Description text="I have interested in programming since 2021. I have some experience developing backend and frontend websites. I have completed several projects in several companies." />
                   <a
                     href="/cv/amrul.pdf"
                     download="Amrul_Ahsanullah_CV.pdf"
