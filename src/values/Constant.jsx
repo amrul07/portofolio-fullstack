@@ -56,7 +56,7 @@ export const NavbarMenu = [
 ];
 
 export const Information = [
-  { id: 1, title: "20+", description: "PROJECTS COMPLETED" },
+  { id: 1, title: "10+", description: "PROJECTS COMPLETED" },
   { id: 2, title: "2+", description: "YEARS OF EXPERIENCE" },
   // { id: 3, title: "6+", description: "COMP. I'VE WORKED" },
 ];
