@@ -13,6 +13,15 @@ import { FaGlobeAfrica } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import Alquran from "@/assets/alquran.png";
+import Undangan from "@/assets/undangan.png";
+import Inr from "@/assets/inr-web.png";
+import Hmjti from "@/assets/hmjti.png";
+import Genbi from "@/assets/genbi.png";
+import Sipeka from "@/assets/sipeka.png";
+import DesaCantik from "@/assets/desa-cantik.png";
+import Godesaku from "@/assets/godesaku.png";
 
 // width drawer
 export const drawerWidth = 115;
@@ -65,7 +74,7 @@ export const Timeline = [
   {
     id: 1,
     nama: "INFORMATICS ENGINEERING",
-    date: "2021 - 2025",
+    date: "2021 - PRESENT",
     tempat: "ALAUDDIN STATE ISLAMIC UNIVERSITY OF MAKASSAR",
     jobdesk: "Bachelor's degree",
     icon: IoSchoolSharp,
@@ -119,54 +128,76 @@ export const PortofolioCard = [
     nama: "Alquran",
     deskripsi: "Digital Quran website",
     teknologi: "React.js",
-    image: Foto,
+    image: Alquran,
     icon: FaGlobe,
-    link: "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+    link: "https://al-quranonline.vercel.app/",
   },
   {
     id: 2,
     nama: "Makkio",
     deskripsi: "Digital invitation website",
     teknologi: "React.js,Material UI",
-    image: Foto,
+    image: Undangan,
     icon: FaGlobe,
-    link: "/about",
+    link: "https://undangan-digital-coral.vercel.app/",
   },
   {
     id: 3,
-    nama: "Genbi Uinam",
-    deskripsi: "Genbi Uinam Organization Information Website",
-    teknologi: "Next.js, Material UI",
-    image: Foto,
+    nama: "Inready Workgroup",
+    deskripsi:
+      "Web-based system for managing internal operations and member data.",
+    teknologi: "Laravel, MySQL, Next.js, TailwindCSS",
+    image: Inr,
     icon: FaGlobe,
-    link: "/awards",
+    link: "#",
   },
   {
     id: 4,
-    nama: "Godesaku",
-    deskripsi: "Village information website",
-    teknologi: "Next.js,Material UI",
-    image: Foto,
+    nama: "HMJTI",
+    deskripsi: "RESTful API & admin portal to manage the data",
+    teknologi: "Laravel, MySQL, HTML5, JavaScript, TailwindCSS",
+    image: Hmjti,
     icon: FaGlobe,
-    link: "/contact",
+    link: "https://www.hmjti-uinam.or.id/",
   },
   {
     id: 5,
-    nama: "Alquran",
-    deskripsi: "Website Alquran",
-    teknologi: "React.js",
-    image: Foto,
+    nama: "Genbi Uinam",
+    deskripsi: "Genbi Uinam Organization Information Website",
+    teknologi: "Next.js, Material UI,Laravel, MySQL",
+    image: Genbi,
     icon: FaGlobe,
-    link: "/",
+    link: "https://genbiuinam.org/",
   },
   {
     id: 6,
-    nama: "Makkio",
-    deskripsi: "Digital invitation website",
-    teknologi: "React.js,Material UI",
-    image: Foto,
+    nama: "Sipeka",
+    deskripsi:
+      "web-based application for managing land deed documents (warkah)",
+    teknologi: "Laravel, MySQL, Bootstrap, JavaScript, WebSocket",
+    image: Sipeka,
     icon: FaGlobe,
-    link: "/about",
+    link: "#",
+  },
+  {
+    id: 7,
+    nama: "Desa Cantik",
+    deskripsi:
+      " A web platform containing information about Desa Cantik (Cinta Statistik) in Gowa Regency.",
+    teknologi: "Laravel, MySQL, HTML5, JavaScript, TailwindCSS, Mapbox",
+    image: DesaCantik,
+    icon: FaGlobe,
+    link: "https://desa-cantik.genbiuinam.org/",
+  },
+  {
+    id: 8,
+    nama: "Godesaku",
+    deskripsi:
+      "A web-based system that provides general information about a village, including articles, tourist spots, population data, and more.",
+    teknologi: "React.js,Material UI,Laravel, MySQL",
+    image: Godesaku,
+    icon: FaGlobe,
+    link: "https://sistem-informasi-desa-iota.vercel.app/",
   },
 ];
 
@@ -212,7 +243,7 @@ export const ContactList = [
     id: 2,
     icon: MdEmail,
     title: "Email",
-    deskripsi: "amrulahsanullah.aa@gmail.com",
+    deskripsi: "muammar.professional@gmail.com",
   },
   {
     id: 3,
@@ -232,12 +263,12 @@ export const ContactIcon = [
   {
     id: 1,
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/amrulahsanullah07/",
+    link: "https://www.instagram.com/amm4r.test",
   },
-  { id: 2, icon: FaGithub, link: "https://github.com/amrul07" },
+  { id: 2, icon: FaGithub, link: "https://github.com/muammar200" },
   {
     id: 3,
-    icon: FaYoutube,
-    link: "https://www.youtube.com/@amrulahsanullah7083",
+    icon: FaLinkedin,
+    link: "https://www.linkedin.com/in/muammar-dev",
   },
 ];

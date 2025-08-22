@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar/Navbar";
 import { Box, Container, Grid, Stack } from "@mui/material";
-import Foto from "@/assets/amrul.jpg";
+import Foto from "@/assets/ammar.jpg";
 import { HomeLogic } from "./HomeLogic";
 import { useThemeStore } from "@/store/themeStore";
 import Title from "@/components/typography/Title";
@@ -97,7 +97,7 @@ export default function Home() {
               >
                 <Title
                   light={"Hi, I'm"}
-                  dark={"Amrul Ahsanullah"}
+                  dark={"Muammar"}
                   fsXs={"2.5rem"}
                   fsMd={"3rem"}
                   display={"inline"}
@@ -127,7 +127,7 @@ export default function Home() {
               >
                 <a
                   href="/cv/amrul.pdf"
-                  download="Amrul_Ahsanullah_CV.pdf"
+                  download="Muammar_CV.pdf"
                   style={{ textDecoration: "none" }}
                 >
                   <DownloadCVButton />
