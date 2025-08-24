@@ -76,8 +76,8 @@ export default function About() {
                   </Poppins>
                   <Description text="I have interested in programming since 2021. I have some experience developing backend and frontend websites. I have completed several projects in several companies." />
                   <a
-                    href="/cv/amrul.pdf"
-                    download="Amrul_Ahsanullah_CV.pdf"
+                    href="/cv/muammar.pdf"
+                    download="Muammar.pdf"
                     style={{ textDecoration: "none" }}
                   >
                     <DownloadCVButton />

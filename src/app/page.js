@@ -126,8 +126,8 @@ export default function Home() {
                 transition={{ delay: 0.4 }}
               >
                 <a
-                  href="/cv/amrul.pdf"
-                  download="Muammar_CV.pdf"
+                  href="/cv/muammar.pdf"
+                  download="Muammar.pdf"
                   style={{ textDecoration: "none" }}
                 >
                   <DownloadCVButton />
