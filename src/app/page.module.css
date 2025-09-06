@@ -137,7 +137,7 @@ a.secondary {
   }
 
   .main ol {
-    text-align: center;
+    text-align: center; 
   }
 
   .ctas {
@@ -166,4 +166,4 @@ a.secondary {
     filter: invert();
   }
 }
-
+/*  */
